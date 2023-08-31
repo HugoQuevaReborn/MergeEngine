@@ -26,14 +26,9 @@
   
     git clone https://github.com/HugoQuevaReborn/MergeEngine.git
   
-  **Configure make using CMake**
+  **Open Visual Studio 2022**
     
-    cmake -S . -B ./build
-
-  **Build the project using make**
-
-    cd ./build
-    make
+    Run MergeEngineCore solution
   
 <p align="center">
   <img src="https://github.com/HugoQuevaReborn/NovelEngine/assets/139586455/b4b0dbab-cd35-40ef-802a-bbc3823926c3" alt="Merge Logo"/>
