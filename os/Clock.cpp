@@ -19,7 +19,7 @@ namespace MergeEngine{
         return std::chrono::system_clock::now();
     }
 
-    void Clock::GetCurrentHoursToCharBuffer(char* buffer){
+    void Clock::GetCurrentHours(char* buffer){
         const auto current = time(0);
         struct tm t_struct;
         localtime_s(&t_struct, &current);

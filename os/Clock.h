@@ -28,6 +28,6 @@ namespace MergeEngine{
         /// If the buffer is nullptr, the entire engine will assert.
         /// </summary>
         /// <param name="buffer"></param>
-        static void GetCurrentHoursToCharBuffer(char* buffer);
+        static void GetCurrentHours(char* buffer);
     };
 }
