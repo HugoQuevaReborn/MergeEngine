@@ -10,7 +10,7 @@
  */
 
 #include "Application.h"
-#include "../debug/utils.h"
+#include "../debugger/utils.h"
 
 namespace MergeEngine {
 Application::Application() : m_instance(this) {

@@ -10,7 +10,7 @@
  */
 
 #include "Window.h"
-#include "../debug/utils.h"
+#include "../debugger/utils.h"
 #include <GLFW/glfw3.h>
 #include <gl/GL.h>
 

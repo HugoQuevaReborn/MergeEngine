@@ -18,7 +18,7 @@
     <ClCompile Include="core\Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="debug\utils.cpp">
+    <ClCompile Include="debugger\utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="os\Clock.cpp">
@@ -56,7 +56,7 @@
     <ClInclude Include="core\defines.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="debug\utils.h">
+    <ClInclude Include="debugger\utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="os\Clock.h">

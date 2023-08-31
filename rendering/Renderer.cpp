@@ -11,7 +11,7 @@
 
 #include "Renderer.h"
 #include "../core/defines.h"
-#include "../debug/utils.h"
+#include "../debugger/utils.h"
 
 namespace MergeEngine{
     void Renderer::Initialize(){

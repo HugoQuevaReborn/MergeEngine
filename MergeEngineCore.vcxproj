@@ -28,7 +28,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core\Application.cpp" />
-    <ClCompile Include="debug\utils.cpp" />
+    <ClCompile Include="debugger\utils.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="os\Clock.cpp" />
     <ClCompile Include="platform\platform_linux.cpp" />
@@ -42,7 +42,7 @@
   <ItemGroup>
     <ClInclude Include="core\Application.h" />
     <ClInclude Include="core\defines.h" />
-    <ClInclude Include="debug\utils.h" />
+    <ClInclude Include="debugger\utils.h" />
     <ClInclude Include="os\Clock.h" />
     <ClInclude Include="os\MMemory.h" />
     <ClInclude Include="platform\platform.h" />

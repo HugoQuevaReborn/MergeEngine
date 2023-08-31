@@ -11,7 +11,7 @@
 
 #include <iostream>
 #include "core/Application.h"
-#include "debug/utils.h"
+#include "debugger/utils.h"
 
 using namespace MergeEngine;
 

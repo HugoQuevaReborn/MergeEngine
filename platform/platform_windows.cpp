@@ -10,7 +10,7 @@
 */
 
 #include "platform.h"
-#include "../debug/utils.h"
+#include "../debugger/utils.h"
 #include <iostream>
 
 namespace MergeEngine {

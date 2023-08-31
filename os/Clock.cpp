@@ -11,7 +11,6 @@
 
 #include "Clock.h"
 #include <ctime>
-#include "../debug/utils.h"
 
 namespace MergeEngine{
     std::chrono::system_clock::time_point Clock::GetCurrentTime(){
