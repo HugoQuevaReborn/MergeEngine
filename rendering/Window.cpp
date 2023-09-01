@@ -31,7 +31,6 @@ namespace MergeEngine {
         glfwDestroyWindow(m_window);
 
         MERGE_INFO("Destroyed m_window");
-        glClearColor(0.0F, 0.0F, 0.0F, 1.0F);
 
         glfwTerminate();
 

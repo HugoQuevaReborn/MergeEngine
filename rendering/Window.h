@@ -19,22 +19,22 @@ typedef struct GLFWwindow GLFWwindow;
 namespace MergeEngine {
 class Window {
 public:
-  Window();
-  ~Window() = default;
+	Window();
+	~Window() = default;
 
-  void Initialize();
-  void EngineLoop();
-  void Clean();
+	void Initialize();
+	void EngineLoop();
+	void Clean();
 
-  Renderer *const GetRenderer();
+	Renderer *const GetRenderer();
 
 private:
-  void init();
-  void loop();
-  void update(f32 dt);
-  void render();
+	void init();
+	void loop();
+	void update(f32 dt);
+	void render();
 
-  GLFWwindow *m_window;
-  Unique<Renderer> m_renderer;
+	GLFWwindow *m_window;
+	Unique<Renderer> m_renderer;
 };
 }; // namespace MergeEngine

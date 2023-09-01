@@ -34,7 +34,6 @@
     <ClCompile Include="platform\platform_linux.cpp" />
     <ClCompile Include="platform\platform_mac.cpp" />
     <ClCompile Include="platform\platform_windows.cpp" />
-    <ClCompile Include="rendering\backend\Renderer_openGL.cpp" />
     <ClCompile Include="rendering\OpenGL_context.cpp" />
     <ClCompile Include="rendering\Renderer.cpp" />
     <ClCompile Include="rendering\Window.cpp" />
@@ -46,7 +45,6 @@
     <ClInclude Include="os\Clock.h" />
     <ClInclude Include="os\MMemory.h" />
     <ClInclude Include="platform\platform.h" />
-    <ClInclude Include="rendering\backend\Renderer_backend.h" />
     <ClInclude Include="rendering\OpenGL_context.h" />
     <ClInclude Include="rendering\Renderer.h" />
     <ClInclude Include="rendering\Window.h" />

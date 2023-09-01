@@ -33,9 +33,6 @@
     <ClCompile Include="platform\platform_windows.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="rendering\backend\Renderer_openGL.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="rendering\OpenGL_context.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -66,9 +63,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="platform\platform.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="rendering\backend\Renderer_backend.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="rendering\OpenGL_context.h">

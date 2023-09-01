@@ -17,7 +17,7 @@ Application::Application() : m_instance(this) {
   MERGE_WARN("Merge Engine currently does not support any kind of rendering");
 }
 
-Application::~Application() { m_window->Clean(); }
+Application::~Application() { }
 
 Application &Application::Get() { return *m_instance; }
 
